@@ -1,0 +1,106 @@
+{
+    "checksum": "5ad618f7f1acf1b28d33bdccbeab4d504205378f1739f8153479ee3da716d054",
+    "data": {
+    "id": "1b66e7b0-30f0-42bd-9f67-ceb786168fa6",
+    "createdAt": 1755641561852,
+    "updatedAt": 1755641564131,
+    "title": "JavaScript Do-While Loop Explained",
+    "messages": [
+        {
+            "id": "b30c7b81-3bd7-4b14-9eb8-8c3f9e8659be",
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Explain this:"
+                },
+                {
+                    "type": "codeSnippet",
+                    "text": "let counter = 1;\nconst message = 'Hello';\ndo {\n    console.log(message);\n    counter++;\n} while (counter <= 3);",
+                    "language": "ecmascript 6"
+                }
+            ],
+            "context": {
+                "currentFile": {
+                    "path": "/Users/gawdly/Developer/javascript-exercises/loops/Challenges/loops.js",
+                    "fsPath": "/Users/gawdly/Developer/javascript-exercises/loops/Challenges/loops.js",
+                    "content": "// ### Challenge 1: Count to 10\n// This loop counts from 1 to 10 and prints each number.\nfor (let i = 1; i <= 10; i++) {\n    console.log(i);\n}\n\n// ### Challenge 2: Count Backwards\n// This loop counts backwards from 10 to 1 and prints each number.\nconsole.log('\\n');\nfor (let i = 10; i > 0; i--) {\n    console.log(i);\n}\n\n// ### Challenge 3: Even Numbers\n// This loop prints all even numbers from 2 to 20.\nconsole.log('\\n');\nfor (let i = 2; i <= 20; i += 2) {\n    console.log(i);\n}\n\n// ### Challenge 4: Odd Numbers\n// This loop prints all odd numbers from 1 to 20.\nconsole.log('\\n');\nfor (let i = 1; i <= 20; i += 2) {\n    console.log(i);\n}\n\n// ### Challenge 5: Sum of Numbers\n// This loop calculates the sum of all numbers from 1 to 100.\nconsole.log('\\n');\nlet sum = 0;\nfor (let i = 1; i <= 100; i++) {\n    sum += i;\n}\nconsole.log(sum);\n\n// ### Challenge 6: Array Iteration\n// This loop iterates over an array and prints each element.\nconsole.log('\\n');\nconst nums = [1, 2, 3, 4, 5];\nfor (let i = 0; i < nums.length; i++) {\n    console.log(nums[i]);\n}\n\n// ### Challenge 7: String Characters\n// This loop iterates over a string and prints each character.\nconsole.log('\\n');\nconst str = 'Hello';\nfor (let i = 0; i < str.length; i++) {\n    console.log(str[i]);\n}\n\n// ### Challenge 8: Multiplication Table\n// This loop prints the multiplication table for the number 5.\nconsole.log('\\n');\nconst base = 5;\nfor (let i = 1; i <= 10; i++) {\n    console.log(`${base} x ${i} = ${base * i}`);\n}\n\n// ### Challenge 9: While Loop Counter\n// This while loop counts from 1 to 5.\nconsole.log('\\n');\nlet numbs = 1;\nwhile (numbs <= 5) {\n    console.log(numbs);\n    numbs++;\n}\n\n// ### Challenge 10: Do-While Example\n// This do-while loop prints a message 3 times.\nconsole.log('\\n');\nlet counter = 1;\nconst message = 'Hello';\ndo {\n    console.log(message);\n    counter++;\n} while (counter <= 3);\n\n// ### Challenge 11: Array Sum\n// This loop calculates the sum of all numbers in an array.\nconsole.log('\\n');\nconst numbersForSum = [10, 20, 30, 40, 50];\nlet arraySum = 0;\nfor (const n of numbersForSum) {\n    arraySum += n;\n}\nconsole.log(arraySum);\n",
+                    "language": "ecmascript 6"
+                },
+                "codebaseEnabled": true,
+                "usedRules": [
+                    "zen-rules://repo/repo"
+                ]
+            },
+            "createdAt": 1755641561863,
+            "isInternal": false,
+            "rawContent": {
+                "type": "doc",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Explain this:"
+                            },
+                            {
+                                "type": "codeBlock",
+                                "attrs": {
+                                    "language": "ecmascript 6"
+                                },
+                                "content": [
+                                    {
+                                        "type": "text",
+                                        "text": "let counter = 1;\nconst message = 'Hello';\ndo {\n    console.log(message);\n    counter++;\n} while (counter <= 3);"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "autoAppliedRules": [
+                {
+                    "name": "Repository Information Overview",
+                    "description": "Repository Information Overview",
+                    "uri": "zen-rules://repo/repo",
+                    "mimeType": "text/markdown",
+                    "content": "\n\n# JavaScript Exercises Information\n\n## Summary\nA collection of JavaScript exercises intended to complement the JavaScript curriculum on The Odin Project. The repository contains a series of progressive exercises that start simple and become more complex, designed to help learners practice JavaScript concepts through test-driven development.\n\n## Structure\n- **Numbered Exercise Directories**: Main exercise folders (01_helloWorld, 02_addNumbers, etc.) containing JavaScript implementation files, test specs, and READMEs\n- **solutions/**: Each exercise directory contains a solutions subdirectory with completed implementations\n- **generators/**: Contains scripts for generating new exercises using Plop\n- **archive/**: Contains archived exercises\n- **Challenge-Directory/**: Additional JavaScript challenges and learning materials\n- **.github/**: GitHub templates for issues and pull requests\n- **.circleci/**: CircleCI configuration for automated testing\n\n## Language & Runtime\n**Language**: JavaScript\n**Version**: ECMAScript 2021 (ES12)\n**Node Version**: >= 18.0.0\n**NPM Version**: >= 8.5.5\n**Build System**: NPM scripts\n**Package Manager**: NPM\n\n## Dependencies\n**Main Dependencies**:\n- None (This is an exercise repository without runtime dependencies)\n\n**Development Dependencies**:\n- jest (^29.6.4): Testing framework\n- jest-cli (^29.6.4): Command-line interface for Jest\n- eslint (^8.47.0): JavaScript linter\n- eslint-config-airbnb-base (^15.0.0): Airbnb's ESLint configuration\n- eslint-plugin-import (^2.28.1): ESLint plugin for import/export syntax\n- plop (^3.1.2): Micro-generator framework for creating new exercises\n- case-anything (^2.1.13): String case conversion utility\n\n## Build & Installation\n```bash\n# Clone the repository\ngit clone https://github.com/TheOdinProject/javascript-exercises.git\n\n# Install dependencies\nnpm install\n\n# Run tests for a specific exercise\nnpm test exerciseName.spec.js\n\n# Generate a new exercise\nnpm run generate\n```\n\n## Testing\n**Framework**: Jest (^29.6.4)\n**Test Location**: Each exercise directory contains a `.spec.js` file\n**Naming Convention**: `exerciseName.spec.js`\n**Configuration**: Jest configuration in package.json, ignoring the generators/ directory\n**Run Command**:\n```bash\n# Run all tests\nnpm test\n\n# Run tests for a specific exercise\nnpm test exerciseName.spec.js\n\n# Run tests in debug mode (using VS Code debugger)\n# Open JavaScript Debug Terminal and run:\nnpm test exerciseName.spec.js\n```",
+                    "alwaysApply": true
+                }
+            ]
+        },
+        {
+            "id": "78ddba19-f0a1-4fe1-9718-2e2dbb7de1cc",
+            "role": "assistant",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "I'll explain the do-while loop code snippet you've shared:\n\n```javascript\nlet counter = 1;\nconst message = 'Hello';\ndo {\n    console.log(message);\n    counter++;\n} while (counter <= 3);\n```\n\nThis is an example of a do-while loop in JavaScript, which is one of the loop types available in the language. Here's how it works:\n\n1. First, a variable `counter` is initialized with the value `1`.\n2. Then, a constant `message` is defined with the value `'Hello'`.\n3. The do-while loop begins with the `do` keyword, which means the code block will execute at least once before checking the condition.\n4. Inside the loop:\n   - `console.log(message)` prints \"Hello\" to the console\n   - `counter++` increments the counter variable by 1\n5. After executing the code block once, the condition `counter <= 3` is checked.\n6. If the condition is true (which it is after the first iteration since counter is now 2), the loop continues.\n7. This process repeats until the condition becomes false.\n\nIn this specific example:\n- First iteration: Prints \"Hello\" and counter becomes 2\n- Second iteration: Prints \"Hello\" and counter becomes 3\n- Third iteration: Prints \"Hello\" and counter becomes 4\n- At this point, counter is 4, which is not <= 3, so the loop stops\n\nThe key difference between a do-while loop and a regular while loop is that a do-while loop always executes its code block at least once, even if the condition is initially false. This is because the condition is checked after the first execution of the code block.\n\nThis example is from Challenge 10 in your loops.js file, which demonstrates the basic functionality of a do-while loop by printing the message \"Hello\" exactly 3 times."
+                }
+            ],
+            "context": {
+                "author": "Ask agent",
+                "operationId": "a9439a90-bca2-43d3-bcee-ebf8d4d13a5f",
+                "usageStatistics": {
+                    "llmCallsUsedForAnswer": 1.0,
+                    "llmCallsUsedTotal": 11.0,
+                    "llmCallsLimit": 200.0,
+                    "limitRenewalMillisecondTimestamp": 1755727510183
+                }
+            },
+            "createdAt": 1755641564131,
+            "isInternal": false
+        }
+    ],
+    "isAgent": false,
+    "isNameGenerated": true,
+    "isCustomAgent": false,
+    "isUnitTestsAgent": false,
+    "isE2EAgent": false,
+    "isWebDevAgent": false,
+    "isQnaAgent": true,
+    "isRepoInfoAgent": false
+}
+}

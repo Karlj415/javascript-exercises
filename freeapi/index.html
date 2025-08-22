@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        import { OpenAI } from "openai";
+
+        const client = new OpenAI({
+            baseURL: "https://router.huggingface.co/v1",
+            apiKey: process.env.HF_TOKEN,
+        });
+
+        const chatCompletion = await client.chat.completions.create({
+            model: "openai/gpt-oss-20b:together",
+            messages: [
+                {
+                    role: "user",
+                    content: "What is the capital of France?",
+                },
+            ],
+        });
+
+        console.log(chatCompletion.choices[0].message);
+
+    </script>
+
+</body>
+
+</html>

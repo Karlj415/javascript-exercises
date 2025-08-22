@@ -1,0 +1,61 @@
+
+.big-container {
+    display: flex;
+    width: 100vw;
+    height: 1300px;
+    align-items: center;
+
+}
+
+.container {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /*margin: 0 auto; this is like space around  */
+}
+
+.box1 {
+    align-self: flex-start;
+}
+
+.box2 {
+    align-self: flex-start;
+    margin-top: 250px;
+}
+
+.box3 {
+    align-self: flex-start;
+}
+
+.box4 {
+    align-self: flex-end;
+    margin-top: 250px;
+
+}
+
+.box5 {
+    align-self: flex-start;
+    /*margin-bottom: 150px;*/
+}
+
+.box6 {
+    align-self: flex-end;
+    margin-top: 250px;
+}
+
+.box7 {
+    align-self: flex-start;
+}
+
+.box8 {
+    align-self: flex-end;
+    margin-top: 250px;
+}
+
+.sub-container {
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+

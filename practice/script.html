@@ -1,0 +1,107 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en-US">-->
+
+<!--<head>-->
+<!--    <meta charset="utf-8">-->
+<!--    <meta name="viewport" content="width=device-width">-->
+<!--    <title>Function library example</title>-->
+<!--    <style>-->
+<!--        input {-->
+<!--            font-size: 2em;-->
+<!--            margin: 10px 1px 0;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+
+<!--<body>-->
+
+<!--    <input class="numberInput" type="text">-->
+<!--    <p></p>-->
+
+<!--    <script>-->
+<!--        const input = document.querySelector('.numberInput');-->
+<!--        const para = document.querySelector('p');-->
+
+<!--        function squared(num) {-->
+<!--            return num * num-->
+<!--        }-->
+
+<!--        function cubed(num) {-->
+<!--            return num * num * num-->
+<!--        }-->
+
+<!--        function factorial(num) {-->
+<!--            if (num < 0) return undefined;-->
+<!--            if (num === 0) return 1;-->
+<!--            let x = num - 1;-->
+<!--            while (x > 1) {-->
+<!--                num *= x;-->
+<!--                x&#45;&#45;-->
+<!--            }-->
+<!--            return num-->
+<!--        }-->
+
+<!--        input.addEventListener('change',  () => {-->
+<!--            const num = parseFloat(input.value);-->
+<!--            if (isNaN(num)) {-->
+<!--                para.textContent = 'You need to enter a number foo';-->
+<!--            } else {-->
+<!--                para.textContent = `${num} squared is ${squared(num)}.` ;-->
+<!--                para.textContent = `${num} cubed is ${cubed(num)}.` ;-->
+<!--                para.textContent = `${num} factorial is ${factorial(num)}.` ;-->
+<!--            }-->
+<!--        });-->
+
+
+
+<!--    </script>-->
+<!--</body>-->
+
+<!--</html>-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    'use strict';
+
+    // function showMessage() {
+    //     alert('Hello all!' );
+    // }
+    // showMessage()
+    //
+    // function newMessage() {
+    //     let message = 'Hello, world!';
+    //     alert(message);
+    // }
+    //
+    // newMessage()
+    //
+    // alert(message)
+    /*
+    let userName = 'John';
+
+    function showMessage() {
+        // userName = "Bob"; // (1) changed the outer variable
+
+        let message = 'Hello, ' + userName;
+        console.log(message);
+    }
+
+    alert( userName ); // John before the function call
+
+    showMessage();
+
+    alert( userName ); // Bob, the value was modified by the function
+     */
+</script>
+<script src="scripter.js"></script>
+</body>
+</html>
