@@ -1,38 +1,71 @@
-for (let i = 3; i >= 0; i--) {
-    let stars = '';
-    for (let j = 3; j >= i; j--) {
-        stars += '*';
-    }
-    console.log(stars);
-}
+// let i = 3;
+// while (i < 3) {
+//     console.log(i);
+//     i++;
+// }
+// while (i) console.log(i--);
 
 let i = 0;
-while (i < 3) {
+do {
     console.log(i);
     i++;
-}
-console.log('\n');
-let j = 3;
-while (j) {
-    console.log(j);
-    j--;
-}
-console.log('\n');
-let k = 3;
-while (k) console.log(k--);
+} while (i < 3);
+
+/*
+
+Run begin
+→ (if condition → run body and run step)
+→ (if condition → run body and run step)
+→ (if condition → run body and run step)
+→ ...
+
+ */
 
 console.log('\n');
-
-
-// Will run ONCE even though boolean is false
-let nums = 3;
-do {
-    console.log(nums);
-    nums++;
-} while (nums < 3);
-
-// Same loop as do...while but this doesnt run as the boolean is false
-for (let i = 3; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
     console.log(i);
 }
+
+
+// Putting for loop in a function
+console.log('\n');
+
+function countDown() {
+    let num = 1;
+    for (; num <= 3; num++) {
+        console.log(num);
+    }
+}
+
+countDown();
+
+
+function enterNum() {
+    let sum = 0;
+    while (true) {
+        let value = +prompt('Enter a number', '');
+        if (!value) {
+            break;
+        }
+        sum += value;
+    }
+    console.log(`Sum: ${sum}`);
+}
+
+// enterNum();
+
+console.log('\n');
+
+function oddNumCounter() {
+    for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) continue;
+        console.log(i);
+    }
+}
+
+oddNumCounter();
+let numb;
+(numb < 5) ? console.log(numb) : console.log('not numb');
+
+
 
