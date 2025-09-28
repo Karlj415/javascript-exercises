@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8854c6cc-0365-4b81-a418-7582939d1c9b" name="Changes" comment="Refactor loop examples and add new utility functions">
+      <change afterPath="$PROJECT_DIR$/Arrays/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/betterCommentsSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/javascript-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zencoder-chat-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zencoder/chats/1b66e7b0-30f0-42bd-9f67-ceb786168fa6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zencoder/chats/ad3d6ab0-7146-425c-a88d-0969510a60b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zencoder/chats/ee6b27cf-b958-44d2-be16-e87e7bc8ba85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/loops/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Karlj415&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TheOdinProject/javascript-exercises.git&quot;,
+    &quot;accountId&quot;: &quot;90c7cc2d-17de-49dc-a9bd-8a0412b6ea9e&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Errors/script.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="303PpyPvs22Tj64gaEkQ2lf4OcN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Node.js/Chrome.Unnamed.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.script.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.someGame.html.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Hello World.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.addNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.math.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.numberChecker (1).executor&quot;: &quot;Run&quot;,
+    &quot;Jest.numberChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.numberChecker.returns false when number is 6.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.numberChecker.returns false when number is 9.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.numberChecker.returns true when number is 10.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.step 2.birthYear is 1947.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.step 2.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.step 2.firstName is Carlos.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.step 3.age is 18.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.step 3.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.acript.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.helloWorld.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.loops.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.scripter.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.zencoder-patch-add-chat-message-raw-content&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.zencoder-patch-chat-storage-migration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.zencoder-patch-generate-chat-message-id&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.zencoder-patch-migrate-custom-instruction&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.zencoder-patch-migrate-repo-info-to-rules&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.19.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.18.1&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gawdly/Developer/javascript-exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/gawdly/Developer/javascript-exercises/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.run.executor&quot;: &quot;Debug&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/gawdly/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Challenge-Directory/Main" />
+      <recent name="$PROJECT_DIR$/Challenge-Directory" />
+      <recent name="$PROJECT_DIR$/loops/practice" />
+      <recent name="$PROJECT_DIR$/FizzBuzz" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value=".idea/workspace.xml" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.28293.44" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8854c6cc-0365-4b81-a418-7582939d1c9b" name="Changes" comment="" />
+      <created>1752853469162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752853469162</updated>
+      <workItem from="1752853470231" duration="5078000" />
+      <workItem from="1752898072556" duration="20000" />
+      <workItem from="1752898247610" duration="5000" />
+      <workItem from="1752899010477" duration="11000" />
+      <workItem from="1753285553230" duration="241000" />
+      <workItem from="1753286882743" duration="1133000" />
+      <workItem from="1753319750569" duration="72000" />
+      <workItem from="1753411506656" duration="1222000" />
+      <workItem from="1753412738319" duration="1874000" />
+      <workItem from="1753498770455" duration="3941000" />
+      <workItem from="1753583100269" duration="2281000" />
+      <workItem from="1753587968820" duration="75000" />
+      <workItem from="1753588556608" duration="24000" />
+      <workItem from="1753588593429" duration="27000" />
+      <workItem from="1753588621697" duration="458000" />
+      <workItem from="1753589165670" duration="2160000" />
+      <workItem from="1753592298566" duration="1410000" />
+      <workItem from="1753637748867" duration="2405000" />
+      <workItem from="1753640896499" duration="3226000" />
+      <workItem from="1753670709630" duration="2002000" />
+      <workItem from="1753833046443" duration="23000" />
+      <workItem from="1753969615438" duration="2028000" />
+      <workItem from="1753973367859" duration="597000" />
+      <workItem from="1754014169761" duration="4000" />
+      <workItem from="1754014178083" duration="22289000" />
+      <workItem from="1754165736722" duration="36000" />
+      <workItem from="1754165815760" duration="1344000" />
+      <workItem from="1754193144455" duration="14523000" />
+      <workItem from="1754279346256" duration="6287000" />
+      <workItem from="1754417442476" duration="15000" />
+      <workItem from="1754437883792" duration="78000" />
+      <workItem from="1754437971885" duration="706000" />
+      <workItem from="1754454539347" duration="1892000" />
+      <workItem from="1754544037468" duration="11000" />
+      <workItem from="1754544058969" duration="33000" />
+      <workItem from="1754544092725" duration="8264000" />
+      <workItem from="1754627859613" duration="1773000" />
+      <workItem from="1754629717323" duration="196000" />
+      <workItem from="1754629973735" duration="758000" />
+      <workItem from="1754717223188" duration="2062000" />
+      <workItem from="1754844321250" duration="13000" />
+      <workItem from="1755144786584" duration="818000" />
+      <workItem from="1755145616468" duration="3924000" />
+      <workItem from="1755229950299" duration="1613000" />
+      <workItem from="1755231577960" duration="4572000" />
+      <workItem from="1755237102587" duration="728000" />
+      <workItem from="1755237839702" duration="1447000" />
+      <workItem from="1755272517697" duration="4196000" />
+      <workItem from="1755280266261" duration="6970000" />
+      <workItem from="1755305734512" duration="847000" />
+      <workItem from="1755306641932" duration="416000" />
+      <workItem from="1755307065661" duration="1668000" />
+      <workItem from="1755316078313" duration="2364000" />
+      <workItem from="1755320347506" duration="2652000" />
+      <workItem from="1755323015678" duration="203000" />
+      <workItem from="1755324172641" duration="452000" />
+      <workItem from="1755324632716" duration="221000" />
+      <workItem from="1755351588673" duration="116000" />
+      <workItem from="1755352141901" duration="2171000" />
+      <workItem from="1755354330869" duration="3824000" />
+      <workItem from="1755369143325" duration="390000" />
+      <workItem from="1755393786802" duration="651000" />
+      <workItem from="1755401392933" duration="2521000" />
+      <workItem from="1755404499508" duration="583000" />
+      <workItem from="1755405090142" duration="55000" />
+      <workItem from="1755405152221" duration="567000" />
+      <workItem from="1755405731046" duration="297000" />
+      <workItem from="1755406038208" duration="3124000" />
+      <workItem from="1755454011543" duration="916000" />
+      <workItem from="1755454942750" duration="291000" />
+      <workItem from="1755455779656" duration="3761000" />
+      <workItem from="1755477306294" duration="2764000" />
+      <workItem from="1755605244880" duration="2499000" />
+      <workItem from="1755618943620" duration="5000" />
+      <workItem from="1755619706965" duration="422000" />
+      <workItem from="1755620167675" duration="24000" />
+      <workItem from="1755620634816" duration="8000" />
+      <workItem from="1755623370390" duration="32000" />
+      <workItem from="1755626427949" duration="42000" />
+      <workItem from="1755626671222" duration="1449000" />
+      <workItem from="1755630394490" duration="6000" />
+      <workItem from="1755641064476" duration="20000" />
+      <workItem from="1755641092132" duration="1865000" />
+      <workItem from="1755645425316" duration="221000" />
+      <workItem from="1755651139400" duration="27000" />
+      <workItem from="1755652096641" duration="2000" />
+      <workItem from="1755653027732" duration="1019000" />
+      <workItem from="1755659748516" duration="1321000" />
+      <workItem from="1755748680776" duration="11000" />
+      <workItem from="1756049128270" duration="10253000" />
+      <workItem from="1756159883144" duration="102000" />
+      <workItem from="1756159994617" duration="706000" />
+      <workItem from="1756218895844" duration="8000" />
+      <workItem from="1756235701308" duration="620000" />
+      <workItem from="1756237199872" duration="95000" />
+      <workItem from="1756304948237" duration="1077000" />
+      <workItem from="1756307196657" duration="714000" />
+      <workItem from="1756311032593" duration="856000" />
+      <workItem from="1756747053203" duration="2323000" />
+      <workItem from="1756771770323" duration="763000" />
+      <workItem from="1756773025960" duration="116000" />
+      <workItem from="1756773293076" duration="106000" />
+      <workItem from="1756773677540" duration="291000" />
+      <workItem from="1756777396063" duration="957000" />
+      <workItem from="1756778711316" duration="26000" />
+      <workItem from="1756778791462" duration="1596000" />
+      <workItem from="1756913505125" duration="3267000" />
+      <workItem from="1756926705582" duration="3489000" />
+      <workItem from="1757003148255" duration="3716000" />
+      <workItem from="1757007676046" duration="619000" />
+      <workItem from="1757008301613" duration="51000" />
+      <workItem from="1757008358378" duration="7000" />
+      <workItem from="1757008376849" duration="551000" />
+      <workItem from="1757009080045" duration="226000" />
+      <workItem from="1757009319735" duration="1311000" />
+      <workItem from="1757012656594" duration="291000" />
+      <workItem from="1757012955735" duration="28000" />
+      <workItem from="1757013023629" duration="77000" />
+      <workItem from="1757013121758" duration="9000" />
+      <workItem from="1757013263785" duration="14000" />
+      <workItem from="1757013293852" duration="10000" />
+      <workItem from="1757013312261" duration="17000" />
+      <workItem from="1757013386726" duration="97000" />
+      <workItem from="1757013495284" duration="540000" />
+      <workItem from="1757014435791" duration="566000" />
+      <workItem from="1757015009657" duration="70000" />
+      <workItem from="1757015085331" duration="47000" />
+      <workItem from="1757015138590" duration="5000" />
+      <workItem from="1757015149580" duration="142000" />
+      <workItem from="1757015304421" duration="35000" />
+      <workItem from="1757015411195" duration="19000" />
+      <workItem from="1757015565628" duration="21000" />
+      <workItem from="1757015681545" duration="26000" />
+      <workItem from="1757036351830" duration="8878000" />
+      <workItem from="1757089256831" duration="4408000" />
+      <workItem from="1757129653122" duration="11895000" />
+      <workItem from="1757261314276" duration="6000" />
+      <workItem from="1757281524979" duration="698000" />
+      <workItem from="1757303383546" duration="10000" />
+      <workItem from="1757378634090" duration="1185000" />
+      <workItem from="1757379828375" duration="1733000" />
+      <workItem from="1757383970187" duration="3724000" />
+      <workItem from="1757447804238" duration="32000" />
+      <workItem from="1757447851592" duration="25000" />
+      <workItem from="1757447888437" duration="2216000" />
+      <workItem from="1757460007653" duration="151000" />
+      <workItem from="1757460165541" duration="22000" />
+      <workItem from="1757460398041" duration="101000" />
+      <workItem from="1757460513343" duration="1307000" />
+      <workItem from="1757462851089" duration="1313000" />
+      <workItem from="1757466175907" duration="544000" />
+      <workItem from="1757466732353" duration="1128000" />
+      <workItem from="1757470829037" duration="43000" />
+    </task>
+    <task id="LOCAL-00001" summary="test?">
+      <option name="closed" value="true" />
+      <created>1755309286935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755309286935</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: improve loops exercises and add code examples&#10;&#10;- Fix variable names and logic in loops challenges&#10;- Complete Challenge 11 with array sum implementation&#10;- Add Challenge 12 for finding maximum in array (WIP)&#10;- Update HTML structure for consistency&#10;- Add do-while loop examples and comparisons&#10;- Clean up and reorganize loop demonstration code">
+      <option name="closed" value="true" />
+      <created>1755659842423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755659842423</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor loop examples and add new utility functions">
+      <option name="closed" value="true" />
+      <created>1756177432186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756177432186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test?" />
+    <MESSAGE value="feat: improve loops exercises and add code examples&#10;&#10;- Fix variable names and logic in loops challenges&#10;- Complete Challenge 11 with array sum implementation&#10;- Add Challenge 12 for finding maximum in array (WIP)&#10;- Update HTML structure for consistency&#10;- Add do-while loop examples and comparisons&#10;- Clean up and reorganize loop demonstration code" />
+    <MESSAGE value="Refactor loop examples and add new utility functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor loop examples and add new utility functions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Arrays/index.js</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="ai.zencoder.plugin.mcp">
+    <option name="internalToolsState" value="{&quot;fetch_webpage&quot;:true,&quot;web_search&quot;:true,&quot;ExecuteShellCommand&quot;:true,&quot;file_search&quot;:true,&quot;str_replace_editor&quot;:true,&quot;list_resources&quot;:true,&quot;FileDiagnosticsTool&quot;:true,&quot;fulltext_search&quot;:true,&quot;read_resource&quot;:true,&quot;RequirementsTool&quot;:true}" />
+    <option name="libraryTools">
+      <map>
+        <entry key="agentql">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="agentrpc">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="aiven">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="apache iotdb">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="apify">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="apimatic mcp">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="astra db">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="aws kb retrieval">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="axiom">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="bankless onchain">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="bicscan">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="box">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="brave search">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="browserbase">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="chroma">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="circleci">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="clickhouse">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="cloudflare">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="codacy">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="codelogic">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="comet opik">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="context7">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="convex">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="e2b">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="elasticsearch">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="everart">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="everything">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="exa">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="fetch">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="fibery">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="filesystem">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="financial datasets">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="firecrawl">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="fireproof">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="forevervm">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="git">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="gitee">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="github">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="gitlab">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="google drive">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="google maps">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="grafana">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="graphlit">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="greptimedb">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="heroku">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="hologres">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="hyperbrowser">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="ibm wxflows">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="inkeep">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="integration app">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="jetbrains">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="kagi search">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="langfuse prompt management">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="logfire">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="mailgun">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="make">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="meilisearch">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="memory">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="metoro">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="milvus">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="momento">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="motherduck">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="needle">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="neo4j">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="neon">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="notion">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="oceanbase">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="octagon">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="oxylabs">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="paddle">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="paypal">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="perplexity">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="playwright">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="postgresql">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="puppeteer">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="qdrant">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="ramp">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="raygun">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="redis">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="riza">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="screenshotone">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="search1api">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="semgrep">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="sentry">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="sequential thinking">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="singlestore">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="slack">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="sqlite">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="starrocks">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="stripe">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="taskmaster-ai">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="tavily">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="thirdweb">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="tinybird">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="unifai">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="unstructured">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="vectorize">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="zapier">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+        <entry key="zenml">
+          <value>
+            <McpServerInfo />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="zencoderBackendTools">
+      <map>
+        <entry key="ExecuteShellCommand">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+        <entry key="FileDiagnosticsTool">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+        <entry key="RequirementsTool">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+        <entry key="fetch_webpage">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+        <entry key="str_replace_editor">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+        <entry key="web_search">
+          <value>
+            <McpServerInfo>
+              <option name="status">
+                <McpServerStatus />
+              </option>
+            </McpServerInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ai.zencoder.plugin.rag.RepoInfoWarningState">
+    <option name="lastCheckTime" value="1755641109777" />
+  </component>
+</project>
