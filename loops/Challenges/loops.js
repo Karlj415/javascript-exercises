@@ -98,4 +98,4 @@ for (var i = largeNumArr.length; i <= 10; i++) {
     i = largeNumArr
     console.log(i)
 }
-
+console.log(i)

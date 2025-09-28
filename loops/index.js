@@ -1,71 +1,36 @@
-// let i = 3;
-// while (i < 3) {
-//     console.log(i);
-//     i++;
+// //! - Using let in the for initializer creates a loop-scoped j; omitting let reuses (and mutates) an outer j, or
+// //! creates an implicit global in sloppy mode.
+
+// console.log('\n');
+// let j = 30;
+// for (let j = 1; j < 10; j++) {
+//     console.log(j);
 // }
-// while (i) console.log(i--);
-
-let i = 0;
-do {
-    console.log(i);
-    i++;
-} while (i < 3);
-
-/*
-
-Run begin
-→ (if condition → run body and run step)
-→ (if condition → run body and run step)
-→ (if condition → run body and run step)
-→ ...
-
- */
-
-console.log('\n');
-for (let i = 0; i < 3; i++) {
-    console.log(i);
-}
+// console.log('\n');
+// console.log(j);
+// console.log('\n');
+// let i = 3;
+// while (i) {
+//     console.log(i--);
+// }
 
 
-// Putting for loop in a function
-console.log('\n');
+// console.log('\n');
+// let k = 0;
+// while (++k < 5) console.log(k);
+// // Pre-increment: increments k first, then uses new value for comparison (prints 1, 2, 3, 4)
+// while (k++ < 5) console.log(k);
+// // Post-increment: uses current k value for comparison, then increments (won't run since k is already 5)
+// console.log('\n');
 
-function countDown() {
-    let num = 1;
-    for (; num <= 3; num++) {
-        console.log(num);
-    }
-}
+let playerNames = [
+    'Karl',
+    'Amy',
+    'Sawyer'
+]
 
-countDown();
+console.log(playerNames)
 
-
-function enterNum() {
-    let sum = 0;
-    while (true) {
-        let value = +prompt('Enter a number', '');
-        if (!value) {
-            break;
-        }
-        sum += value;
-    }
-    console.log(`Sum: ${sum}`);
-}
-
-// enterNum();
-
-console.log('\n');
-
-function oddNumCounter() {
-    for (let i = 1; i <= 10; i++) {
-        if (i % 2 === 0) continue;
-        console.log(i);
-    }
-}
-
-oddNumCounter();
-let numb;
-(numb < 5) ? console.log(numb) : console.log('not numb');
-
-
+let scores = Array(10).fill(0);
+console.log(scores)
 
