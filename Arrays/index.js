@@ -149,6 +149,7 @@ const arr = [1, 2, 3, 4, 5,];
 const mappedArr = arr.map((num) => num + 1);
 console.log(arr);
 console.log(mappedArr);
+
 // return odd numbers only
 function isOdd(num) {
     return num % 2 !== 0;
@@ -161,7 +162,18 @@ console.log(arr);
 function isEven(num) {
     return num % 2 === 0;
 }
-
+const karl = 'Hello my fucking friends'
 const evenNums = arr.filter(isEven);
 console.log(evenNums);
 console.log(arr);
+
+function doubleNums(num) {
+    return num * 2;
+}
+
+// arr = [1,2,3,4,5]
+console.log(arr.map((num) => num * 2));
+const productOfAllNums = arr.reduce((total, currentItem) => {
+    return total * currentItem;
+}, 1);
+console.log(productOfAllNums);
