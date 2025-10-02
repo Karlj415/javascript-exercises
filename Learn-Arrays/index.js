@@ -116,14 +116,14 @@ console.log(newArr);
     return a - b;
 });
 
-let countries = ['Osterreich', 'Andorra', 'Vietnam']
+let countries = ['United States', 'Andorra', 'Vietnam'];
 console.log(countries.sort(compareNumeric));
-let anotherArr = [1,2,3,4,5]
-console.log(anotherArr.reverse())
+let anotherArr = [1, 2, 3, 4, 5];
+console.log(anotherArr.reverse());
 console.log(users.reverse());
 
-let names = 'Karl, Amy, Sawyer'
-let nameArr = names.split(', ' )
+let names = 'Karl, Amy, Sawyer';
+let nameArr = names.split(', ');
 for (let name of nameArr) {
     console.log(`A message to ${name}`);
 }
