@@ -68,12 +68,7 @@ let result = numbers.find(function (item) {
 });
 console.log(result); // returns 10
 
-let users = [
-    {id: 1, name: 'John'},
-    {id: 2, name: 'Pete'},
-    {id: 3, name: 'Mary'},
-    {id: 4, name: 'John'},
-];
+let users = [{id: 1, name: 'John'}, {id: 2, name: 'Pete'}, {id: 3, name: 'Mary'}, {id: 4, name: 'John'},];
 
 let user = users.find(item => item.id === 1);
 console.log(user.name); // returns John
@@ -127,4 +122,15 @@ let nameArr = names.split(', ');
 for (let name of nameArr) {
     console.log(`A message to ${name}`);
 }
+
 //console.log(typeof nameArr);
+
+const testArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function returnOdds(arr) {
+    return arr.filter(num => num % 2 !== 0);
+}
+
+
+console.log(returnOdds(testArr));
+
