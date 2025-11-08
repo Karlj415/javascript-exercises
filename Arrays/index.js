@@ -124,18 +124,18 @@
 //
 
 function sumOfTripledEvens() {
-    let sumOfNum = 0;
-    let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    for (let i = 0; i < numArray.length; i++) {
-        // Step 1: if the element is an even number
-        if (numArray[i] % 2 === 0) {
-            // Step 2: Multiply this number by 3
-            const tripledEvenNumber = numArray[i] * 3;
-            // Step 3: Add the new number to the total
-            sumOfNum += tripledEvenNumber;
-        }
+  let sumOfNum = 0;
+  let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  for (let i = 0; i < numArray.length; i++) {
+    // Step 1: if the element is an even number
+    if (numArray[i] % 2 === 0) {
+      // Step 2: Multiply this number by 3
+      const tripledEvenNumber = numArray[i] * 3;
+      // Step 3: Add the new number to the total
+      sumOfNum += tripledEvenNumber;
     }
-    return sumOfNum;
+  }
+  return sumOfNum;
 }
 
 console.log(sumOfTripledEvens());
@@ -145,14 +145,14 @@ function addOne(num) {
     }
 */
 
-const arr = [1, 2, 3, 4, 5,];
+const arr = [1, 2, 3, 4, 5];
 const mappedArr = arr.map((num) => num + 1);
 console.log(arr);
 console.log(mappedArr);
 
 // return odd numbers only
 function isOdd(num) {
-    return num % 2 !== 0;
+  return num % 2 !== 0;
 }
 
 const oddNums = arr.filter(isOdd);
@@ -160,20 +160,31 @@ console.log(oddNums);
 console.log(arr);
 
 function isEven(num) {
-    return num % 2 === 0;
+  return num % 2 === 0;
 }
-const karl = 'Hello my fucking friends'
+const karl = 'Hello my fucking friends';
 const evenNums = arr.filter(isEven);
 console.log(evenNums);
 console.log(arr);
 
 function doubleNums(num) {
-    return num * 2;
+  return num * 2;
 }
 
 // arr = [1,2,3,4,5]
 console.log(arr.map((num) => num * 2));
 const productOfAllNums = arr.reduce((total, currentItem) => {
-    return total * currentItem;
+  return total * currentItem;
 }, 1);
 console.log(productOfAllNums);
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+for (let arrs of arr) {
+  console.log(arrs);
+}
+
+
+
